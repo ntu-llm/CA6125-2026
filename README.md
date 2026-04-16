@@ -30,4 +30,4 @@ Before running ```./Lecture1/offline_serving.py```, start the vLLM server:
 ```
 vllm serve Qwen/Qwen3.5-2B --port 8000 --tensor-parallel-size 1 --max-model-len 262144
 ```
-
+checkout https://huggingface.co/Qwen/Qwen3.5-2B
